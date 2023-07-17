@@ -48,11 +48,16 @@
 
 // Дан массив с числами. Посчитайте количество отрицательных чисел в этом массиве.
 
-// const checkNum = (arr) => {
-//     return arr.filter(el => el < 0).map(el)
+// let numbers = [1, 2, -3, 0, -4, 5, -6];
+// let result = 0;
+//
+// for (let i = 0; i < numbers.length; ++i) {
+//     if (numbers[i] < 0) {
+//         result += numbers[i];
+//     }
 // }
 //
-// console.log(checkNum([1, 2, -3, 0, -4, 5, -6]))
+// console.log(result)
 
 // const arr1 = [1,2,3,4]
 // const arr2 = ['a','b','c','d']
